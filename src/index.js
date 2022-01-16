@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const dataSales = fs.readFileSync("sales.csv", "utf8")
-const dataCashback = fs.readFileSync("cashback.csv", "utf8")
+const dataSales = fs.readFileSync("../assets/sales.csv", "utf8")
+const dataCashback = fs.readFileSync("../assets/cashback.csv", "utf8")
 
 outputSales()
 
